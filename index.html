@@ -1,0 +1,30 @@
+---
+layout: default
+title: Shubham Bansal
+---
+<section class="site"><img class="me" src="images/me.jpg" /></section>
+<section class="site">
+	Hello there, I'm Shubham Bansal or 
+	<a href="https://twitter.com/shubhambansal">@shubhambansal</a>
+	on Twitter. I build cool stuff for 
+	<a href="https://twitter.com/Backstop">Backstop Solutions</a>
+	in Chicago.
+</section>
+<section class="site">
+	I am a full-stack engineer and I love building products for fun and profit. 
+	I love programming, 
+	<a href="/reading.html">reading</a>, travelling and 
+	<a href="http://www.youtube.com/watch?v=lBGox9mV49Y">Squash</a>.
+	Here, I write short essay about programming, technology, productivity
+	or anything else that tickles my fancy.
+	
+	<p>I also have a <a href="/daily.html">list</a> of things I try to do everyday.</p>
+</section>
+<div id="home">
+  <h1 class="">Essays</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

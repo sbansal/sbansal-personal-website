@@ -1,0 +1,23 @@
+---
+layout: default
+title: Do's and Don't of my life
+---
+
+#Things I _try_ to do every day.
+
+This list is inspired by Jack Dorsey's [talk](http://www.youtube.com/watch?v=wEQawgkCMOU) at Startup School. I look at this list first thing every morning, a bunch of times during the day and right before I go to sleep.
+
+# Do
+* Drink only wine during the week.
+* Be present and slow things down. Breathe.
+* Drink 4 glasses of water.
+* Sleep atleast 7 hours.
+* Ship something everyday.
+* Sit and stand straight.
+
+<p class="separator"></p>
+
+#Don't
+* No hard liquor or beer during the week.
+* No sugar during the week.
+* Wait for the right moment.
