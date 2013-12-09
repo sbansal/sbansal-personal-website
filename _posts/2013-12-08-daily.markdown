@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Do's and Don't of my life
+title: Daily
 ---
 
 #Things I _try_ to do every day.
