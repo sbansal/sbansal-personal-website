@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: post
 title: Daily
 ---
 
-#Things I _try_ to do every day.
-
+This is a list of things I _try_ to do everyday.
 This list is inspired by Jack Dorsey's [talk](http://www.youtube.com/watch?v=wEQawgkCMOU) at Startup School. I look at this list first thing every morning, a bunch of times during the day and right before I go to sleep.
 
 # Do
