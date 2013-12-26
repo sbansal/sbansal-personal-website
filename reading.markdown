@@ -43,3 +43,5 @@ title: Reading List
 (http://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional-ebook/dp/B0010SEN1S)
 * [The $100 Startup]
 (http://www.amazon.com/The-100-Startup-Reinvent-Living/dp/0307951529)
+* [The Power of Habit]
+(http://www.amazon.com/Power-Habit-Why-What-Change-ebook/dp/B0055PGUYU)

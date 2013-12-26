@@ -206,3 +206,9 @@ a, a:hover, a:visited {
 	font-size: 14px;
 	font-style: italic;
 }
+
+.tldr {
+	border: 2px solid #AAA;
+	width: 50%; 
+	margin: 40px auto;
+}
