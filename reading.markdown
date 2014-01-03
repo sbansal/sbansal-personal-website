@@ -12,9 +12,10 @@ title: Reading List
 <span class="finish">- finished on Nov. 23 2013</span>
 * [Remote]
 (http://www.amazon.com/Remote-Office-Required-Jason-Fried-ebook/dp/B00C0ALZ0W) <span class="finish">- finished on Dec. 6 2013</span>
+* [The Power of Habit]
+(http://www.amazon.com/Power-Habit-Why-What-Change-ebook/dp/B0055PGUYU)
 * [The Intelligent Investor]
 (http://www.amazon.com/Intelligent-Investor-Rev-Ed-ebook/dp/B000FC12C)
-<span class="finish">- started on Dec. 8 2013 </span>
 * [Smalltalk Best Practice Patterns]
 (http://www.amazon.com/Smalltalk-Best-Practice-Patterns-Kent/dp/013476904X)
 * [Practical Object-Oriented Design in Ruby]
@@ -43,5 +44,3 @@ title: Reading List
 (http://www.amazon.com/Design-Patterns-Ruby-Addison-Wesley-Professional-ebook/dp/B0010SEN1S)
 * [The $100 Startup]
 (http://www.amazon.com/The-100-Startup-Reinvent-Living/dp/0307951529)
-* [The Power of Habit]
-(http://www.amazon.com/Power-Habit-Why-What-Change-ebook/dp/B0055PGUYU)

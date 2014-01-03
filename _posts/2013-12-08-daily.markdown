@@ -17,6 +17,6 @@ This list is inspired by Jack Dorsey's [talk](http://www.youtube.com/watch?v=wEQ
 <p class="separator"></p>
 
 #Don't
-* No hard liquor or beer during the week.
-* No sugar during the week.
-* Wait for the right moment.
+* Don't drink hard liquor or beer during the week.
+* Don't eat sugar during the week.
+* Don't wait for things to happen.
