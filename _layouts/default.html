@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>{{ page.title }}</title>
-	<meta name="viewport" content="width=device-width">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
 
-	<!-- syntax highlighting CSS -->
-	<link rel="stylesheet" href="/css/syntax.css">
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="/css/main.css">
-	<link rel="stylesheet" href="/css/fontello.css">
-	<script type="text/javascript" src="//use.typekit.net/bqt0vrh.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/fontello.css">
+  <script type="text/javascript" src="//use.typekit.net/bqt0vrh.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-	<section class="site">{{ content }}</section>
-	<section class="site footer">
-		<ul>
-			<li class="social">
-				<a href="https://twitter.com/shubhambansal">
-					<div class="icon-twitter"></div>
-					<div class="name">Follow me on twitter.</div>
-				</a>
-			</li>
-			<li class="social">
-				<a href="mailto:shubhambansal15@gmail.com">
-					<div class="icon-gmail"></div>
-					<div class="name">Get in touch.</div>
-				</a>
-			</li>
-		</ul>
-	</section>
+  <header class="header">
+    <div class="header-container">
+      <h1 class="big-intro">
+        Hello there, I'm Shubham Bansal or <a href="https://twitter.com/shubhambansal">@shubhambansal</a> on Twitter.
+      </h1>
+      I build cool stuff at 
+      <a href="https://backstopsolutions.com/">Backstop Solutions</a> during the day and work on
+      <a href="https://domreactor.com">DomReactor</a> during the night. 
+      I currently live in Chicago with my wife
+      <a href="https://twitter.com/dmendira">Deepti</a>.
+      I love <a href="/reading.html">reading</a>, travelling and
+      <a href="https://www.youtube.com/watch?v=ZY_QWYtZVQI">Squash</a>.
+    </div>
+  </header>
+  <section class="site">{{ content }}</section>
+  <footer class="site footer">
+    <ul>
+      <li class="social">
+        <a href="https://twitter.com/shubhambansal">
+          <div class="icon-twitter"></div>
+        </a>
+      </li>
+      <li class="social">
+        <a href="mailto:shubhambansal15@gmail.com">
+          <div class="icon-gmail"></div>
+        </a>
+      </li>
+    </ul>
+  </footer>
 </body>
 </html>
