@@ -9,6 +9,8 @@ title: Reading List
 # Reading List
 * [Good Calories Bad Calories]
 (http://www.amazon.com/Good-Calories-Bad-Gary-Taubes-ebook/dp/B000UZNSC2)
+* [MONEY Master the Game: 7 Simple Steps to Financial Freedom]
+(http://www.amazon.com/MONEY-Master-Game-Financial-Freedom-ebook/dp/B00MZAIU4G/)
 * [Refactoring]
 (http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
 * [Patterns of Enterprise Application Architecture]
