@@ -244,3 +244,7 @@ header {
 .highlight {
 	font-size: 14px;
 }
+
+.strike-through {
+  text-decoration: line-through;
+}
