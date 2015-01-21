@@ -248,3 +248,10 @@ header {
 .strike-through {
   text-decoration: line-through;
 }
+
+blockquote {
+  border-left: 4px solid #CCC;
+  padding: 0px 10px;
+  font-style: italic;
+  color: #777;
+}
