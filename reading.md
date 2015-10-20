@@ -7,8 +7,6 @@ title: Reading List
 </div>
 
 # Reading List
-* [Good Calories Bad Calories]
-(http://www.amazon.com/Good-Calories-Bad-Gary-Taubes-ebook/dp/B000UZNSC2)
 * [MONEY Master the Game: 7 Simple Steps to Financial Freedom]
 (http://www.amazon.com/MONEY-Master-Game-Financial-Freedom-ebook/dp/B00MZAIU4G/)
 * [Refactoring]
@@ -21,8 +19,6 @@ title: Reading List
 (http://www.amazon.com/Are-Your-Lights-Figure-Problem/dp/0932633161/)
 * [The elements of style]
 (http://www.amazon.com/Elements-Style-4th-William-Strunk/dp/0205313426/)
-* [On writing well]
-(http://www.amazon.com/Writing-Well-30th-Anniversary-Nonfiction/dp/0060891548/)
 * [Predictably irrational]
 (http://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions-ebook/dp/B002C949KE)
 * [Don't Just Roll The Dice]
@@ -42,6 +38,14 @@ title: Reading List
 
 
 # Finished Reading
+* [Anything You Want: 40 Lessons for a New Kind of Entrepreneur - Derek Sivers]
+(http://www.amazon.com/Anything-You-Want-Lessons-Entrepreneur/dp/1591848261)
+* [Meditations by Marcus Aurelius]
+(http://www.amazon.com/Meditations-Thrift-Editions-Marcus-Aurelius/dp/048629823X)
+* [On writing well]
+(http://www.amazon.com/Writing-Well-30th-Anniversary-Nonfiction/dp/0060891548/)
+* [Good Calories Bad Calories]
+(http://www.amazon.com/Good-Calories-Bad-Gary-Taubes-ebook/dp/B000UZNSC2)
 * [How To Win Friends and Influence People]
 (http://www.amazon.com/How-Win-Friends-Influence-People-ebook/dp/B003WEAI4E/)
 * [The Lost Symbol]
