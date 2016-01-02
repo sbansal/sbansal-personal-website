@@ -13,35 +13,34 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #F9FFFF;
   font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   text-align: center;
 	color: #1E1E20;
 	font-weight: 100;
+  background-color: #44444F;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; 
+  font-size: 100%;
   font-weight: 100;
 }
 
-h1 { 
-  margin-bottom: 1em;
+h1 {
+  margin: 1em 0;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 p { margin: 1em 0; }
 
 a {
-	color: #DB615A;
-	text-decoration: none;
-}
-a:hover { 
+	color: #FC9829;
 	text-decoration: underline;
 }
 
 ul {
   margin-bottom: 2em;
+  list-style-type: none;
 }
 
 .clear {	clear:both; }
@@ -55,9 +54,18 @@ ul {
 /* Home
 /*
 /*****************************************************************************/
-div.header-container {
-  width: 60%;
+section.header-container {
+  float: left;
+  width: 25%;
   margin: 0 auto;
+  color: #FFF;
+  text-align: left;
+  display: block;
+}
+
+section.header-container section {
+  margin: 0 auto;
+  width: 85%;
 }
 
 h1.big-intro {
@@ -66,18 +74,27 @@ h1.big-intro {
   line-height: 1em;
 }
 
-.posts {
-  list-style-type: none;
+.posts, .book-list, .post {
   margin-bottom: 2em;
+	text-align: justify;
+  margin-left: 60px;
+  width:60%;
+  height: 100%;
 }
 
-.posts li {
+.post-section {
   line-height: 1.75em;
+  padding: 20px 0;
+}
+
+.post-section a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .posts span {
   color: #aaa;
-  font-family:"proxima-nova", Helvetica, Arial, sans-serif;
 }
 
 /*****************************************************************************/
@@ -88,10 +105,13 @@ h1.big-intro {
 
 .site {
   text-align: justify;
-  margin: 3em auto 2em;
   line-height: 1.5em;
-	max-width: 40em;
-  padding: 0 20px;
+  float: left;
+  background-color: #FFF;
+  padding: 60px 0 0 0;
+  width: 75%;
+  height: auto;
+  min-height: 100%;
 }
 
 header {
@@ -176,26 +196,26 @@ header {
 /* standard */
 .post pre {
   border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .post ul, .post ol {
   margin-left: 1.35em;
 }
 
-.post code {
+/*.post code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
-}
+}*/
 
-.post pre code {
+/*.post pre code {
   border: none;
-}
+}*/
 
 /* terminal */
-.post pre.terminal {
+/*.post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
@@ -203,10 +223,18 @@ header {
 
 .post pre.terminal code {
   background-color: #333;
+}*/
+
+.post h1 {
+  color: #555;
+  margin: 1em 0;
 }
 
-#home {
-	text-align: justify;
+.description {
+  font-size: 14px;
+  color: #AAA;
+  font-weight: 100;
+  line-height: 1.5em;
 }
 
 .social {
@@ -231,13 +259,15 @@ header {
 }
 
 .post-date {
-	font-size: 14px;
-	font-style: italic;
+	font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #CCC;
 }
 
 .tldr {
 	border: 2px solid #AAA;
-	width: 50%; 
+	width: 50%;
 	margin: 40px auto;
 }
 
@@ -254,4 +284,49 @@ blockquote {
   padding: 0px 10px;
   font-style: italic;
   color: #777;
+}
+
+.upcase {
+  text-transform: uppercase;
+}
+
+img.avatar {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border-radius: 50px;
+  margin: 40px 0;
+  width: 100px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/*****************************************************************************/
+/*
+/* Books
+/*
+/*****************************************************************************/
+
+ul.books li {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+ul.books li a {
+  text-decoration: none;
+}
+
+h1.date-header {
+  font-weight: bold;
+  color: #777;
+}
+
+h1.post-title {
+  font-weight: bold;
+  color: #FC9829;
+  margin: 10px 0 30px 0;
+  font-size: 28px;
+  text-transform: uppercase;
 }

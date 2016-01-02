@@ -2,11 +2,11 @@
 layout: default
 title: Shubham Bansal
 ---
-<div id="home">
-  <h1 class="">Essays</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+<section class="posts">
+  {% for post in site.posts %}
+    <section class="post-section">
+      <a class="upcase" href="{{ post.url }}">{{ post.title }}</a>
+      <div class="description">{{ post.description }}</div>
+    </section>
+  {% endfor %}
+</section>

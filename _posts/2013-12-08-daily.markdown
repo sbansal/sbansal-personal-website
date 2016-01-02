@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Daily
+description: A list of things I like to do and not do everyday.
 ---
 
 This is a list of things I _try_ to do everyday.
 This list is inspired by Jack Dorsey's [talk](http://www.youtube.com/watch?v=wEQawgkCMOU) at Startup School. I look at this list first thing every morning, a bunch of times during the day and right before I go to sleep.
 
-# Do
+# Things to do.
 * Drink only wine during the week.
 * Be present and slow things down. Breathe.
 * Drink 4 glasses of water.
@@ -14,9 +15,7 @@ This list is inspired by Jack Dorsey's [talk](http://www.youtube.com/watch?v=wEQ
 * Ship something everyday.
 * Sit and stand straight.
 
-<p class="separator"></p>
-
-#Don't
+# Things to avoid.
 * Don't drink hard liquor or beer during the week.
 * Don't eat sugar during the week.
 * Don't wait for things to happen.
