@@ -1,3 +1,4 @@
 name: Personal Blog
 markdown: redcarpet
+highlighter: rouge
 permalink: /posts/:title
