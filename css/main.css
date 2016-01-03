@@ -14,10 +14,10 @@ html, body { height: 100%; }
 
 body {
   font-family: "proxima-nova", Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   text-align: center;
-	color: #1E1E20;
-	font-weight: 100;
+  color: #1E1E20;
+  font-weight: 100;
   background-color: #44444F;
 }
 
@@ -28,14 +28,15 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   margin: 1em 0;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-weight: bold;
 }
+
 p { margin: 1em 0; }
 
 a {
-	color: #FC9829;
-	text-decoration: underline;
+  color: #FC9829;
+  text-decoration: underline;
 }
 
 ul {
@@ -55,28 +56,84 @@ ul {
 /*
 /*****************************************************************************/
 section.header-container {
-  float: left;
-  width: 25%;
   margin: 0 auto;
   color: #FFF;
   text-align: left;
   display: block;
 }
 
-section.header-container section {
-  margin: 0 auto;
-  width: 85%;
+img.avatar {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border-radius: 50px;
+  margin: 40px 0;
+  width: 100px;
+}
+
+
+@media screen and (min-width: 666px) {
+    section.header-container {
+        float: left;
+        width: 25%;
+    }
+
+    section.header-container section {
+      width: 85%;
+      margin: 0 auto;
+    }
+
+    .ss-small {
+      display: none;
+    }
+
+    .ss-large {
+      display: block;
+    }
+}
+
+@media screen and (max-width: 666px) {
+    section.header-container {
+      width: 100%;
+    }
+
+    section.header-container section {
+      margin-left: 60px;
+      width: 100%;
+    }
+
+    img.avatar {
+      float: left;
+      margin: 0 20px 0 0;
+    }
+
+    .ss-small {
+      display: block;
+    }
+
+    .ss-large {
+      display: none;
+    }
+
+    .site {
+      min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  section.header-container section{
+      max-width: 100%;
+      width: 60%;
+  }
 }
 
 h1.big-intro {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-weight: 100;
   line-height: 1em;
 }
 
 .posts, .book-list, .post {
   margin-bottom: 2em;
-	text-align: justify;
   margin-left: 60px;
   width:60%;
   height: 100%;
@@ -88,7 +145,7 @@ h1.big-intro {
 }
 
 .post-section a {
-  font-size: 20px;
+  font-size: 1.2em;
   font-weight: 600;
   text-decoration: none;
 }
@@ -104,7 +161,7 @@ h1.big-intro {
 /*****************************************************************************/
 
 .site {
-  text-align: justify;
+  text-align: left;
   line-height: 1.5em;
   float: left;
   background-color: #FFF;
@@ -112,17 +169,6 @@ h1.big-intro {
   width: 75%;
   height: auto;
   min-height: 100%;
-}
-
-header {
-  line-height: 1.5em;
-  background-color: #f1f1f1;
-  padding: 40px 0;
-  min
-}
-
-.header a {
-  text-decoration: none;
 }
 
 .title {
@@ -156,8 +202,8 @@ header {
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
-	padding: 20px 0;
-	text-align: center;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .footer .contact {
@@ -180,11 +226,11 @@ header {
 }
 
 .me {
-	width: 128px;
-	height: 128px;
-	border-radius: 100px;
-	display: block;
-	margin: 0 auto;
+  width: 128px;
+  height: 128px;
+  border-radius: 100px;
+  display: block;
+  margin: 0 auto;
 }
 
 /*****************************************************************************/
@@ -200,79 +246,54 @@ header {
   border-radius: 5px;
 }
 
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-/*.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}*/
-
-/*.post pre code {
-  border: none;
-}*/
-
-/* terminal */
-/*.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
-}*/
-
 .post h1 {
   color: #555;
   margin: 1em 0;
 }
 
 .description {
-  font-size: 14px;
+  font-size: 0.9em;
   color: #AAA;
   font-weight: 100;
   line-height: 1.5em;
 }
 
 .social {
-	display:inline-block;
-	text-align: center;
-	width: 150px;
-	font-size: 16px;
+  display:inline-block;
+  text-align: center;
+  width: 150px;
+  font-size: 1em;
 }
 
 .finish {
-	font-size: 16px;
-	font-style: italic;
-	color: #CCC;
+  font-size: 1em;
+  font-style: italic;
+  color: #CCC;
 }
 
 .links a {
-	border: 0;
+  border: 0;
 }
 
 .home-link-container {
-	margin: 20px 0;
+  margin: 20px 0;
 }
 
 .post-date {
-	font-size: 12px;
+  font-size: 0.75em;
   text-transform: uppercase;
   font-weight: bold;
   color: #CCC;
 }
 
 .tldr {
-	border: 2px solid #AAA;
-	width: 50%;
-	margin: 40px auto;
+  border: 2px solid #AAA;
+  width: 50%;
+  margin: 40px auto;
 }
 
 .highlight {
-	font-size: 14px;
+  font-size: 0.8em;
 }
 
 .strike-through {
@@ -290,13 +311,6 @@ blockquote {
   text-transform: uppercase;
 }
 
-img.avatar {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  border-radius: 50px;
-  margin: 40px 0;
-  width: 100px;
-}
 
 .underline {
   text-decoration: underline;
@@ -310,7 +324,7 @@ img.avatar {
 
 ul.books li {
   margin: 20px 0;
-  font-size: 18px;
+  font-size: 1px;
   font-weight: bold;
 }
 
@@ -327,6 +341,6 @@ h1.post-title {
   font-weight: bold;
   color: #FC9829;
   margin: 10px 0 30px 0;
-  font-size: 28px;
+  font-size: 2em;
   text-transform: uppercase;
 }
