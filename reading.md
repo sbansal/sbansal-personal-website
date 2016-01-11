@@ -4,8 +4,13 @@ title: Books
 ---
 
 <section class="book-list">
-  <h1 class="date-header">2016</h1>
+  <h1 class="date-header">2016 (3 Books)</h1>
   <ul class="books">
+    <li>
+      <a href="http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805" target="_blank">
+        Drive: The Surprising Truth About What Motivates Us
+      </a>
+    </li>
     <li>
       <a href="http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215/" target="_blank">
         Domain Driven Design
@@ -17,7 +22,7 @@ title: Books
       </a>
     </li>
   </ul>
-  <h1 class="date-header">2015</h1>
+  <h1 class="date-header">2015 (5 Books)</h1>
   <ul class="books">
     <li>
       <a href="http://www.amazon.com/Art-Learning-Journey-Optimal-Performance/dp/0743277465" target="_blank">
@@ -45,7 +50,7 @@ title: Books
       </a>
     </li>
   </ul>
-  <h1 class="date-header">2014</h1>
+  <h1 class="date-header">2014 (15 Books)</h1>
   <ul class="books">
     <li>
       <a href="http://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions-ebook/dp/B002C949KE" target="_blank">
