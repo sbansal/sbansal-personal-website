@@ -4,8 +4,23 @@ title: Books
 ---
 
 <section class="book-list">
-  <h1 class="date-header">2016 (3 Books)</h1>
+  <h1 class="date-header">2016 (6 Books)</h1>
   <ul class="books">
+    <li>
+      <a href="http://www.amazon.com/Surely-Feynman-Adventures-Curious-Character/dp/0393316041" target="_blank">
+        Surely You're Joking, Mr. Feynman! - Richard P. Feynman
+      </a>
+    </li>
+    <li>
+      <a href="http://www.amazon.com/How-Fail-Almost-Everything-Still/dp/1591847745" target="_blank">
+        How to Fail at Almost Everything and Still Win Big - Scott Adams
+      </a>
+    </li>
+    <li>
+      <a href="http://www.amazon.com/How-Proust-Change-Your-Life/dp/0679779159" target="_blank">
+        How Proust Can Change Your Life - Alain De Botton
+      </a>
+    </li>
     <li>
       <a href="http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805" target="_blank">
         Drive: The Surprising Truth About What Motivates Us
