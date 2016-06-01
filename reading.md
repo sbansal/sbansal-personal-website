@@ -4,8 +4,18 @@ title: Books
 ---
 
 <section class="book-list">
-  <h1 class="date-header">2016 (6 Books)</h1>
+  <h1 class="date-header">2016 (8 Books)</h1>
   <ul class="books">
+    <li>
+      <a href="http://www.amazon.com/Surely-Feynman-Adventures-Curious-Character/dp/0393316041" target="_blank">
+        The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph - Ryan Holiday
+      </a>
+    </li>
+    <li>
+      <a href="https://www.amazon.com/Not-Fade-Away-Short-Lived/dp/006073731X/" target="_blank">
+        Not Fade Away: A Short Life Well Lived - Lawrence Shames & Peter Barton
+      </a>
+    </li>
     <li>
       <a href="http://www.amazon.com/Surely-Feynman-Adventures-Curious-Character/dp/0393316041" target="_blank">
         Surely You're Joking, Mr. Feynman! - Richard P. Feynman
