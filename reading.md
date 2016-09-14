@@ -4,8 +4,28 @@ title: Books
 ---
 
 <section class="book-list">
-  <h1 class="date-header">2016 (8 Books)</h1>
+  <h1 class="date-header">2016 (12 Books)</h1>
   <ul class="books">
+	  <li>
+		  <a href="https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry-ebook/dp/B0026772N8" target="_blank">
+				Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values - Robert M.Pirsig
+		  </a>
+	  </li>
+	  <li>
+		  <a href="https://www.amazon.com/Inevitable-Understanding-Technological-Forces-Future/dp/B016JPTOUG" target="_blank">
+			  The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future - Kevin Kelly
+		  </a>
+	  </li>
+	  <li>
+		  <a href="https://www.amazon.com/Potter-Cursed-Special-Rehearsal-Script/dp/1338099132" target="_blank">
+			  Harry Potter and the Cursed Child, Parts 1 & 2, Special Rehearsal Edition Script - J.K.Rowling
+		  </a>
+	  </li>
+	  <li>
+		  <a href="http://www.amazon.com/Zero-One-Notes-Start-Future-ebook/dp/B00J6YBOFQ/" target="_blank">
+			  Zero to One: Notes on Startups, or How to Build the Future (Re-read) - Peter Thiel
+		  </a>
+	  </li>
     <li>
       <a href="http://www.amazon.com/Surely-Feynman-Adventures-Curious-Character/dp/0393316041" target="_blank">
         The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph - Ryan Holiday
